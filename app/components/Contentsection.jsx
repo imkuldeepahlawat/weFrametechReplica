@@ -8,10 +8,10 @@ import horizontalThreedots from "../Assets/horizontalThreedots.svg";
 
 const Contentsection = () => {
   return (
-    <div className="w-full p-4 flex gap-4">
+    <div className="w-full p-4 flex gap-4 flex-col md:flex-row">
       {/* col1 */}
       <div className="w-[25%]">
-        <div className="flex justify-between m-4 w-full">
+        <div className="flex justify-between m-4 ">
           <p className="text-white text-lg">{`To-Do List(24)`}</p>
           <div className="flex justify-center items-center bg-[#6418C3] p-3 rounded-md">
             <Image src={sumIcom} alt="horizontal dots" />
@@ -281,7 +281,7 @@ const Contentsection = () => {
       <div className="w-[25%]">
         <div className="flex justify-between m-4 ">
           <p className="text-white text-lg">{`Revised (0)`}</p>
-          <div className="flex justify-center items-center bg-[#211A75] p-3 rounded-md">
+          <div className="flex justify-center items-center bg-[#211A75] p-3 cursor-pointer rounded-md">
             <Image src={sumColorIcon} alt="horizontal dots" />
           </div>
         </div>
