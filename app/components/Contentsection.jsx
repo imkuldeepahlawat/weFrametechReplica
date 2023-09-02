@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import clockIcon from "../Assets/clockIcon.svg";
-import sumIcon from "../Assets/sumICon.svg";
-import sumColorIcon from "../Assets/sumColorICon.svg";
+import sumIcon from "../Assets/sumIcon.svg";
+import sumColorIcon from "../Assets/sumColorIcon.svg";
 import horizontalThreedots from "../Assets/horizontalThreedots.svg";
 
 const Contentsection = () => {
