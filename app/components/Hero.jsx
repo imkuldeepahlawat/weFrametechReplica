@@ -7,7 +7,7 @@ import leftArrowButtonIcon from "../Assets/btnLeftIcon.svg";
 import Image from "next/image";
 const Hero = () => {
   return (
-    <div className="bg-[#15132B] rounded-lg p-4 flex flex-col md:flex-row justify-between w-full">
+    <div className="bg-[#15132B] rounded-lg p-4 flex flex-col md:flex-row justify-between w-full gap-4 md:gap-0">
       {/* left */}
       <div className="flex gap-2">
         <div>
@@ -54,7 +54,7 @@ const Hero = () => {
         </div>
       </div>
       {/* right */}
-      <div className="flex flex-col gap-3 w-[25%]">
+      <div className="flex flex-col gap-3 w-full md:w-[25%]">
         <div className="flex items-center ">
           <div className="text-white flex flex-col items-end">
             <h3 className=" font-semibold">Centered Martial Arts</h3>
@@ -63,7 +63,7 @@ const Hero = () => {
           <Image className="" src={companyLogoIcon} alt="company logo" />
           <Image className="" src={threeDotsIcon} alt="threedots" />
         </div>
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-2 items-center flex-col md:flex-row ">
           <p className="text-white font-semibold w-[50%]">Total Progress 60%</p>
           <div className="bg-[#1E1C3A] h-[12px] flex  rounded-full w-[50%]">
             <div className="bg-[#6418C3] w-[60%] rounded-full"></div>

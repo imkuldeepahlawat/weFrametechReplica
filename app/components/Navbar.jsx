@@ -10,19 +10,30 @@ import usIcon from "../Assets/usIcon.svg";
 import downArrowIcon from "../Assets/arrow.svg";
 import hamburgerMenuIcon from "../Assets/hamburgermenu.svg";
 
-const Navbar = () => {
+const Navbar = (props) => {
+  const { changeFn, sideValue } = props;
   return (
-    <div className="flex md:justify-between md:items-center p-2 gap-3 flex-col md:flex-row bg-[#15132B]">
+    <div className="flex md:justify-between md:items-center p-2 gap-3 flex-col md:flex-row bg-[#15132B] border-l-2 border-[#0D0B21]">
       <h3 className="text-white p-2 block md:hidden text-center font-semibold text-lg">
         We Frame Tech
       </h3>
-      <button className="hidden md:block">
-        <Image
-          src={hamburgerMenuIcon}
-          alt="menuIcon"
+      {!sideValue ? (
+        <button
           className="hidden md:block"
-        />
-      </button>
+          onClick={() => {
+            changeFn(true);
+          }}
+        >
+          <Image
+            src={hamburgerMenuIcon}
+            alt="menuIcon"
+            className="hidden md:block"
+          />
+        </button>
+      ) : (
+        <div></div>
+      )}
+
       <div className="bg-[#211A75] flex p-2 rounded-full gap-2 w-[250px] md:w-[18%] ">
         <Image
           src={searchImage}
@@ -78,7 +89,11 @@ const Navbar = () => {
           <p className="text-white">Instructor Day</p>
           <p className="text-[#7879F1]">Super Admin</p>
         </div>
-        <Image src={downArrowIcon} className="hover:scale-125 duration-300 cursor-pointer" alt="down Arrow Icon" />
+        <Image
+          src={downArrowIcon}
+          className="hover:scale-125 duration-300 cursor-pointer"
+          alt="down Arrow Icon"
+        />
       </div>
     </div>
   );

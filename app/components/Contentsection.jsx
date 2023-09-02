@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import ProjectCard from "./ProjectCard";
 import clockIcon from "../Assets/clockIcon.svg";
 import sumIcom from "../Assets/sumICon.svg";
 import sumColorIcon from "../Assets/sumColorICon.svg";
@@ -10,15 +9,15 @@ const Contentsection = () => {
   return (
     <div className="w-full p-4 flex gap-4 flex-col md:flex-row">
       {/* col1 */}
-      <div className="w-[25%]">
+      <div className="md:w-[25%] ">
         <div className="flex justify-between m-4 ">
-          <p className="text-white text-lg">{`To-Do List(24)`}</p>
+          <p className="text-white text-xl">{`To-Do List(24)`}</p>
           <div className="flex justify-center items-center bg-[#6418C3] p-3 rounded-md">
             <Image src={sumIcom} alt="horizontal dots" />
           </div>
         </div>
         <div className="flex flex-col gap-3">
-          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-2">
+          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-4">
             {/* card1 */}
             <div className="flex items-center justify-between   ">
               <div className="w-[50%] flex items-center gap-3">
@@ -29,7 +28,7 @@ const Contentsection = () => {
                 <Image src={horizontalThreedots} alt="horizontal dots" />
               </div>
             </div>
-            <p className="text-white text-lg">
+            <p className="text-white text-xl">
               Create sign up sheet for holiday student/parent conferences.
             </p>
             <div className="bg-[#1E1C3A] w-full h-[10px] rounded-full flex">
@@ -49,7 +48,7 @@ const Contentsection = () => {
             </div>
           </div>
           {/* card2 */}
-          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-2">
+          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-4">
             <div className="flex items-center justify-between   ">
               <div className="w-[50%] flex items-center gap-3">
                 <span className="w-[10px] h-[10px] rounded-full bg-[#E328AF]"></span>
@@ -59,7 +58,7 @@ const Contentsection = () => {
                 <Image src={horizontalThreedots} alt="horizontal dots" />
               </div>
             </div>
-            <p className="text-white text-lg">
+            <p className="text-white text-xl">
               Plan holiday demonstration program. Create outline.
             </p>
             <div className="bg-[#1E1C3A] w-full h-[10px] rounded-full flex">
@@ -78,7 +77,7 @@ const Contentsection = () => {
             </div>
           </div>
           {/* card3 */}
-          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-2">
+          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-4">
             <div className="flex items-center justify-between   ">
               <div className="w-[50%] flex items-center gap-3">
                 <span className="w-[10px] h-[10px] rounded-full bg-[#38E25D]"></span>
@@ -88,7 +87,7 @@ const Contentsection = () => {
                 <Image src={horizontalThreedots} alt="horizontal dots" />
               </div>
             </div>
-            <p className="text-white text-lg">
+            <p className="text-white text-xl">
               Determine how many boards need to be ordered for testing and demo.
             </p>
             <div className="bg-[#1E1C3A] w-full h-[10px] rounded-full flex">
@@ -108,16 +107,16 @@ const Contentsection = () => {
         </div>
       </div>
       {/* col2 */}
-      <div className="w-[25%]">
+      <div className="md:w-[25%]">
         <div className="flex justify-between m-4">
-          <p className="text-white text-lg">{`In Progress (2)`}</p>
+          <p className="text-white text-xl">{`In Progress (2)`}</p>
           <div className="flex justify-center items-center bg-[#211A75] p-3 rounded-md">
             <Image src={sumColorIcon} alt="horizontal dots" />
           </div>
         </div>
         <div className="flex flex-col gap-3">
           {/* card1 */}
-          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-2">
+          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-4">
             <div className="flex items-center justify-between   ">
               <div className="w-[50%] flex items-center gap-3">
                 <span className="w-[10px] h-[10px] rounded-full bg-[#5ECFFF]"></span>
@@ -127,7 +126,7 @@ const Contentsection = () => {
                 <Image src={horizontalThreedots} alt="horizontal dots" />
               </div>
             </div>
-            <p className="text-white text-lg">
+            <p className="text-white text-xl">
               Create sparring tutorial video for the weekly class.
             </p>
             <div className="bg-[#1E1C3A] w-full h-[10px] rounded-full flex">
@@ -146,7 +145,7 @@ const Contentsection = () => {
             </div>
           </div>
           {/* card2 */}
-          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-2">
+          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-4">
             <div className="flex items-center justify-between   ">
               <div className="w-[50%] flex items-center gap-3">
                 <span className="w-[10px] h-[10px] rounded-full bg-[#FF4A55]"></span>
@@ -156,7 +155,7 @@ const Contentsection = () => {
                 <Image src={horizontalThreedots} alt="horizontal dots" />
               </div>
             </div>
-            <p className="text-white text-lg">
+            <p className="text-white text-xl">
               Payment gateway needs reauthorization.
             </p>
             <div className="bg-[#1E1C3A] w-full h-[10px] rounded-full flex">
@@ -178,9 +177,9 @@ const Contentsection = () => {
         </div>
       </div>
       {/* col3 */}
-      <div className="w-[25%]">
+      <div className="md:w-[25%]">
         <div className="flex justify-between m-4 ">
-          <p className="text-white text-lg">{`Done(3)`}</p>
+          <p className="text-white text-xl">{`Done(3)`}</p>
           <div className="flex justify-center items-center bg-[#211A75] p-3 rounded-md">
             <Image
               src={sumColorIcon}
@@ -190,7 +189,7 @@ const Contentsection = () => {
           </div>
         </div>
         <div className="flex flex-col gap-3">
-          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-2">
+          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-4">
             {/* card1 */}
             <div className="flex items-center justify-between   ">
               <div className="w-[50%] flex items-center gap-3">
@@ -201,7 +200,7 @@ const Contentsection = () => {
                 <Image src={horizontalThreedots} alt="horizontal dots" />
               </div>
             </div>
-            <p className="text-white text-lg">
+            <p className="text-white text-xl">
               Action Button needed for Google Maps visits.
             </p>
             <div className="bg-[#1E1C3A] w-full h-[10px] rounded-full flex">
@@ -221,7 +220,7 @@ const Contentsection = () => {
             </div>
           </div>
           {/* card2 */}
-          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-2">
+          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-4">
             <div className="flex items-center justify-between   ">
               <div className="w-[50%] flex items-center gap-3">
                 <span className="w-[10px] h-[10px] rounded-full bg-[#38E25D]"></span>
@@ -231,7 +230,7 @@ const Contentsection = () => {
                 <Image src={horizontalThreedots} alt="horizontal dots" />
               </div>
             </div>
-            <p className="text-white text-lg">Update new instructor photos.</p>
+            <p className="text-white text-xl">Update new instructor photos.</p>
             <div className="bg-[#1E1C3A] w-full h-[10px] rounded-full flex">
               <div className="bg-[#38E25D] h-full w-[100%] rounded-full"></div>
             </div>
@@ -248,7 +247,7 @@ const Contentsection = () => {
             </div>
           </div>
           {/* card3 */}
-          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-2">
+          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-4">
             <div className="flex items-center justify-between   ">
               <div className="w-[50%] flex items-center gap-3">
                 <span className="w-[10px] h-[10px] rounded-full bg-[#E328AF]"></span>
@@ -258,7 +257,7 @@ const Contentsection = () => {
                 <Image src={horizontalThreedots} alt="horizontal dots" />
               </div>
             </div>
-            <p className="text-white text-lg">
+            <p className="text-white text-xl">
               Review/correct yellow belt techniques.
             </p>
             <div className="bg-[#1E1C3A] w-full h-[10px] rounded-full flex">
@@ -278,9 +277,9 @@ const Contentsection = () => {
         </div>
       </div>
       {/* col4 */}
-      <div className="w-[25%]">
+      <div className="md:w-[25%]">
         <div className="flex justify-between m-4 ">
-          <p className="text-white text-lg">{`Revised (0)`}</p>
+          <p className="text-white text-xl">{`Revised (0)`}</p>
           <div className="flex justify-center items-center bg-[#211A75] p-3 cursor-pointer rounded-md">
             <Image src={sumColorIcon} alt="horizontal dots" />
           </div>
