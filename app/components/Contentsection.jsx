@@ -17,7 +17,7 @@ const Contentsection = () => {
           </div>
         </div>
         <div className="flex flex-col gap-3">
-          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-4">
+          <div className="w-full bg-[#211A75]  hover:-rotate-6 transform rotate-0 transition-transform cursor-grab p-3 rounded-md flex flex-col gap-4">
             {/* card1 */}
             <div className="flex items-center justify-between   ">
               <div className="w-[50%] flex items-center gap-3">
@@ -48,7 +48,7 @@ const Contentsection = () => {
             </div>
           </div>
           {/* card2 */}
-          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-4">
+          <div className="w-full bg-[#211A75] hover:-rotate-6 transform rotate-0 transition-transform cursor-grab p-3 rounded-md flex flex-col gap-4">
             <div className="flex items-center justify-between   ">
               <div className="w-[50%] flex items-center gap-3">
                 <span className="w-[10px] h-[10px] rounded-full bg-[#E328AF]"></span>
@@ -77,7 +77,7 @@ const Contentsection = () => {
             </div>
           </div>
           {/* card3 */}
-          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-4">
+          <div className="w-full bg-[#211A75] hover:-rotate-6 transform rotate-0 transition-transform cursor-grab p-3 rounded-md flex flex-col gap-4">
             <div className="flex items-center justify-between   ">
               <div className="w-[50%] flex items-center gap-3">
                 <span className="w-[10px] h-[10px] rounded-full bg-[#38E25D]"></span>
@@ -116,7 +116,7 @@ const Contentsection = () => {
         </div>
         <div className="flex flex-col gap-3">
           {/* card1 */}
-          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-4">
+          <div className="w-full bg-[#211A75] hover:-rotate-6 transform rotate-0 transition-transform cursor-grab p-3 rounded-md flex flex-col gap-4">
             <div className="flex items-center justify-between   ">
               <div className="w-[50%] flex items-center gap-3">
                 <span className="w-[10px] h-[10px] rounded-full bg-[#5ECFFF]"></span>
@@ -145,7 +145,7 @@ const Contentsection = () => {
             </div>
           </div>
           {/* card2 */}
-          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-4">
+          <div className="w-full bg-[#211A75] hover:-rotate-6 transform rotate-0 transition-transform cursor-grab p-3 rounded-md flex flex-col gap-4">
             <div className="flex items-center justify-between   ">
               <div className="w-[50%] flex items-center gap-3">
                 <span className="w-[10px] h-[10px] rounded-full bg-[#FF4A55]"></span>
@@ -189,7 +189,7 @@ const Contentsection = () => {
           </div>
         </div>
         <div className="flex flex-col gap-3">
-          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-4">
+          <div className="w-full bg-[#211A75] hover:-rotate-6 transform rotate-0 transition-transform cursor-grab p-3 rounded-md flex flex-col gap-4">
             {/* card1 */}
             <div className="flex items-center justify-between   ">
               <div className="w-[50%] flex items-center gap-3">
@@ -220,7 +220,7 @@ const Contentsection = () => {
             </div>
           </div>
           {/* card2 */}
-          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-4">
+          <div className="w-full bg-[#211A75] hover:-rotate-6 transform rotate-0 transition-transform cursor-grab p-3 rounded-md flex flex-col gap-4">
             <div className="flex items-center justify-between   ">
               <div className="w-[50%] flex items-center gap-3">
                 <span className="w-[10px] h-[10px] rounded-full bg-[#38E25D]"></span>
@@ -247,7 +247,7 @@ const Contentsection = () => {
             </div>
           </div>
           {/* card3 */}
-          <div className="w-full bg-[#211A75] p-3 rounded-md flex flex-col gap-4">
+          <div className="w-full bg-[#211A75] hover:-rotate-6 transform rotate-0 transition-transform cursor-grab p-3 rounded-md flex flex-col gap-4">
             <div className="flex items-center justify-between   ">
               <div className="w-[50%] flex items-center gap-3">
                 <span className="w-[10px] h-[10px] rounded-full bg-[#E328AF]"></span>

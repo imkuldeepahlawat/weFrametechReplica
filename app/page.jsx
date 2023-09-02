@@ -9,20 +9,20 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   const [sidebarElement, setSideBarElement] = useState(false);
-  const handleChange =(value)=>{
-    setSideBarElement(value)
-  }
+  const handleChange = (value) => {
+    setSideBarElement(value);
+  };
   return (
     <main className="w-full h-full flex">
       {sidebarElement && <Sidebar changeFn={handleChange} />}
-      <div className={sidebarElement ? `w-[80%]`:`w-[100%]`}>
+      <div className={sidebarElement ? `w-[80%]` : `w-[100%]`}>
         <Navbar changeFn={handleChange} sideValue={sidebarElement} />
         {/* <Sidebar /> */}
         <div className="px-8 py-6">
           <Hero />
           <Contentsection />
         </div>
-        <Footer/>
+        <Footer />
       </div>
     </main>
   );

@@ -20,7 +20,7 @@ import rightArrow from "../Assets/sidebar/rightFullarrow.svg";
 const Sidebar = (props) => {
   const { changeFn } = props;
   return (
-    <div className="bg-[#15132B] w-[20%] flex flex-col hidden md:block  ">
+    <div className="bg-[#15132B] w-[20%] flex flex-col hidden md:block border-r-2 border-[#0D0B21] ">
       <div className="flex justify-center items-center gap-9 p-6">
         <h2 className="text-white p-2 block text-center font-semibold text-2xl">
           weframetech
