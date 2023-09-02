@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import clockIcon from "../Assets/clockIcon.svg";
-import sumIcom from "../Assets/sumICon.svg";
+import sumIcon from "../Assets/sumICon.svg";
 import sumColorIcon from "../Assets/sumColorICon.svg";
 import horizontalThreedots from "../Assets/horizontalThreedots.svg";
 
@@ -13,7 +13,7 @@ const Contentsection = () => {
         <div className="flex justify-between m-4 ">
           <p className="text-white text-xl">{`To-Do List(24)`}</p>
           <div className="flex justify-center items-center bg-[#6418C3] p-3 rounded-md">
-            <Image src={sumIcom} alt="horizontal dots" />
+            <Image src={sumIcon} alt="horizontal dots" />
           </div>
         </div>
         <div className="flex flex-col gap-3">
